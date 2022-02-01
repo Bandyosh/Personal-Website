@@ -28,6 +28,7 @@ p{
     color: rgb(0, 0, 0);
     font-size: 20px;
 }
+
 hr{
     width: 100%;
     height: 50px;
@@ -122,4 +123,53 @@ width: 30%;
 }
 .error{
     background-color: red;
-}   
+}  
+@media only screen and (max-width: 1200px) {
+.roadtrip{
+    opacity: 0%;
+}
+.timer{
+    margin-top: 220px;
+}
+}
+@media only screen and (max-width: 768px) {
+    p{
+        font-size: 15px;
+    }
+    .home-new{
+        width: 100%;
+        top: 410px;
+        bottom: 0pc;
+        padding-left:10px;
+    }
+    .roadtrip{
+        opacity: 0%;
+    }
+    .timer{
+        opacity: 0%;
+    }
+    .about-coding{
+        width: 100%;
+    }
+    .calculator{
+        opacity: 0%;
+    }
+    .about-cats{
+        width: 100%;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+    
+    .about-travel{
+        width: 100%
+    }
+    .travel{
+        opacity: 0%;
+    }
+    .placeholder-wave{
+        margin-top: 30px;
+    }
+    .about{
+        height: 270px; 
+    }
+ }
